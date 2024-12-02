@@ -1,2 +1,5 @@
-A sample command-line application with an entrypoint in `bin/`, library code
-in `lib/`, and example unit test in `test/`.
+# Para probar los ejemplos y ejercicios:
+``````
+Vamos a descomentar  los ejemplos necesarios, no todos
+asi evitamos que todos los resultaos y pruebas tengan errores
+``````
