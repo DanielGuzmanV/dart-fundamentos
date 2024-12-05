@@ -1,9 +1,7 @@
-// 1.1 Estructuras de control
+// 2.- Estructuras de control
 // Bucles
 
 void main() {
-
-// Bucle for: 
 
 print('--- Uso del for ---');
 for(int idx = 1; idx <= 3; idx++){

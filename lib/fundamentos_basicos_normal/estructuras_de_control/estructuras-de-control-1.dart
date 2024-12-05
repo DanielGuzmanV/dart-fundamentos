@@ -1,12 +1,18 @@
-// 1.1 Estructuas de control
+// 1.- Estructuas de control
 // condicionales:
 void main() {
-  int edad = 17;
-  String nombre = 'Guzman';
-  double estatura = 1.64;
-  bool isAlive = false;
 
-  // ---- condicional if ----
+  // Podemos cambiar los datos para poder probar las condiciones
+  int edad = 25;
+  String nombre = 'Manuel';
+  double estatura = 1.80;
+  bool isAlive = true;
+
+  // tambien podemos evaluar un mapa en un if:
+  Map <String, int> stock = {
+    'Manzanas': 35,
+    'Naranjas': 0
+  };
 
   print('--- Condicional if ---');
   if (edad > 18) {
@@ -17,7 +23,7 @@ void main() {
     print('Ingrese un nombre');
   }
 
-  if (estatura >= 1.70) {
+  if (estatura > 1.70) {
     print('Es alto');
   }
 
@@ -25,12 +31,11 @@ void main() {
     print('Si esta vivo');
   }
 
-  // --------------------------------
+  if(stock['Naranjas'] == 0){
+    print("No hay naranjas disponibles");
+  }
 
   print('-----------------------------');
-
-  // ---- condicional if con else ----
-
   print('--- Condicional if con else---');
   if (edad > 18) {
     print('Es mayor de edad');
@@ -44,7 +49,7 @@ void main() {
     print('Su nombre es $nombre');
   }
 
-  if (estatura >= 1.70) {
+  if (estatura > 1.70) {
     print('Es alto');
   } else {
     print('Es bajo');
@@ -56,8 +61,13 @@ void main() {
     print('No esta vivo');
   }
 
-  // ---- condicional if, else if y else ----
+  if(stock["Manzanas"] == 0){
+    print("No hay manzanas disponibles");
+  } else {
+    print("Si hay manzanas disponibles");
+  }
 
+  print('-----------------------------');
   print('--- Condicional if, else if y else ---');
   if (edad > 18) {
     print('Es mayor de edad');
@@ -91,4 +101,11 @@ void main() {
     print('No esta...');
   }
   
+  if(stock["Naranjas"] == 0 ){
+    print('No hay naranjas disponibles');
+  } else if(stock["Naranjas"] == 10) {
+    print('Hay ponas unidades de naranajas');
+  } else {
+    print('Hay naranjas');
+  }
 }
