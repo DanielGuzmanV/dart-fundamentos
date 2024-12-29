@@ -7,6 +7,7 @@ void main() {
   String nombre = 'Alberto';
   double peso = 85.5;
   bool isAlive = true;
+  // ------------------------------------------------------
 
   // Tambien podemos usar los tipos de datos en las listas y mapas
   // --- Listas ---
@@ -14,8 +15,9 @@ void main() {
   List <double> decimales = [1.4, 3.5, 6.1, 7.1, 2, 5];
   List <String> cadenas = ['Hello', 'World'];
   List <bool> varBoolean = [true, false, true, false];
+  // ------------------------------------------------------
 
-  // --- Mapas ---
+  // --- Mapas y Tipo de mapas ---
   Map <String, int> frutas = {
     'Manzanas': 20,
     'Sandia': 5,
@@ -30,7 +32,7 @@ void main() {
     4: 'Jueves',
     5: 'Viernes'
   };
-
+  // ------------------------------------------------------
 
   // Imprimir las variables basicas
   print('La edad es: $edad');
