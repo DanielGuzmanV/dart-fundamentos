@@ -28,9 +28,23 @@ void main() {
   const double varPi2 = 3.14159;
   // --------------------------------------------------
 
+  // -- Realizamos una pequeña operacion --
+  double precio = 19.99;
+  int cantidad = 3;
+
+  double total = precio * cantidad;
+
+  // --------------------------------------------------
+
   // -- Imprimimos las variables --
   print('Nombre: $name, Edad: $age, Altura: $height, Estudiante: $isStutend');
   print('Fecha de Nacimiento: $fechaNacimiento1, valor de pi: $varPi1');
   print('Dato dinamico: $newDato');
+
+  // -- La operacion podemos imprimirla de dos formas --
+  // Primera forma
+  print('Total a pagar: \$${total}'); 
+  // Segunda forma, donde definimos cuantos decimales puede tener el total
+  print('Total a pagar: \$${total.toStringAsFixed(1)}'); 
 
 }
