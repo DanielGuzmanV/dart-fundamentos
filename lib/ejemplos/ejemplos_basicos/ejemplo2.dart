@@ -1,8 +1,5 @@
 // -- Ejemplos de uso de estructuras de control --
 
-import 'dart:math';
-import 'dart:mirrors';
-
 void main() {
 
   // -- Condicionales --
