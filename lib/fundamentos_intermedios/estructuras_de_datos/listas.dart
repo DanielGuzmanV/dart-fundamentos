@@ -1,6 +1,13 @@
 // Estructuras de datos:
 // --- Listas ---
 void main() {
+
+  // Formas de crear una lista:
+  final nuevaLista1 = ['ejemplo1', 'ejemplo2']; // donde pueden ir string, int, etc, ya que dart sabe que es una lista
+  var nuevaLista2 = [1,2,3,4,5];
+  final nuevaLista3 = <int>[10, 20, 30, 40];
+  List<String> nuevaLista4 = ['Hola', 'Mundo'];
+
   // Podemos crear diferentes tipos de listas:
   List<int> numerosEnteros = [10, 20, 30, 40, 50, 60];
   List<double> numerosDecimales = [1.1, 1.2, 1.3, 1.4, 1.5, 1.6];
