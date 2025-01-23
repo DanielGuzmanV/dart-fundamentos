@@ -14,6 +14,8 @@ void main() {
     print('No ingresaste ningun numero');
   }
 
+  print('-----------------------------------');
+
   print('Para comprender: ');
   // Datos adicionales: .split(',') divide una cadena de texto usando "," o cualquier caracter, que sera como delimitador
   String numeroEntrada = "1,2,3,4";
